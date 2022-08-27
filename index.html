@@ -3,26 +3,31 @@
     <head>
         <title>TODOアプリ</title>
         <meta charset="UTF-8" />
+        <link rel="stylesheet" href="src/styles.css" />
     </head>
 
     <body>
-        <div>
-            <input type="text" name="" id="" placeholder="TODOを入力" />
-            <button>追加</button>
+        <div class="input">
+            <input type="text" name="" id="add-text" placeholder="TODOを入力" />
+            <button id="add-button">追加</button>
         </div>
-        <div>
-            <p>未完了のTODO</p>
-            <ul>
-                <li>TODOです</li>
-                <button>完了</button>
-                <button>削除</button>
+        <div class="todo">
+            <p class="title">未完了のTODO</p>
+            <ul id="todo-list">
+                <div class="list">
+                    <li>TODOです</li>
+                    <button>完了</button>
+                    <button>削除</button>
+                </div>
             </ul>
         </div>
-        <div>
-            <p>完了したTODO</p>
+        <div class="complete">
+            <p class="title">完了したTODO</p>
             <ul>
-                <li>TODOでした</li>
-                <button>戻す</button>
+                <div class="list">
+                    <li>TODOでした</li>
+                    <button>戻す</button>
+                </div>
             </ul>
         </div>
         <script src="src/index.js"></script>
