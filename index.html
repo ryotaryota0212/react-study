@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Parcel Sandbox</title>
+        <title>TODOアプリ</title>
         <meta charset="UTF-8" />
     </head>
 
     <body>
-        <div id="app"></div>
-        <p>仮想DOMを用いることで複雑化を改善</p>
-        <p>パッケージマネージャーで依存関係を管理</p>
-        <p>ES2015(ES6)で多くの追加機能があった。</p>
-        <p>
-            モジュールハンドラ→複数のjsファイルをまとめたもの<br />
-            トランスパイラ→新しい記法を古い記法に変換してくれる
-        </p>
-        <p>SPAで速度UP!</p>
-
+        <div>
+            <input type="text" name="" id="" placeholder="TODOを入力" />
+            <button>追加</button>
+        </div>
+        <div>
+            <p>未完了のTODO</p>
+            <ul>
+                <li>TODOです</li>
+                <button>完了</button>
+                <button>削除</button>
+            </ul>
+        </div>
+        <div>
+            <p>完了したTODO</p>
+            <ul>
+                <li>TODOでした</li>
+                <button>戻す</button>
+            </ul>
+        </div>
         <script src="src/index.js"></script>
     </body>
 </html>
+<!-- <p>仮想DOMを用いることで複雑化を改善</p>
+	<p>パッケージマネージャーで依存関係を管理</p>
+	<p>ES2015(ES6)で多くの追加機能があった。</p>
+	<p>
+		モジュールハンドラ→複数のjsファイルをまとめたもの<br />
+		トランスパイラ→新しい記法を古い記法に変換してくれる
+	</p>
+	<p>SPAで速度UP!</p>
+	<p>アロー関数はreturnを省略することができる時もある</p>
+	<p>スプレッド構文では参照がコピーされない</p>
+	<p>||は左がfalseなら右を返す</p>
+	<p>&&は左がtrueなら右を返す</p> -->
